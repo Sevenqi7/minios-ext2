@@ -1,0 +1,19 @@
+{
+    "files.associations": {
+        "atomic": "c",
+        "stdio.h": "c",
+        "fs.h": "c",
+        "fs_misc.h": "c",
+        "x86.h": "c",
+        "proto.h": "c",
+        "type.h": "c",
+        "const.h": "c",
+        "ext2.h": "c",
+        "stdarg.h": "c",
+        "vfs.h": "c",
+        "protect.h": "c",
+        "string.h": "c",
+        "global.h": "c",
+        "assert.h": "c"
+    }
+}

@@ -1,0 +1,24 @@
+obj/lib/printfmt.o: lib/printfmt.c /usr/include/stdc-predef.h \
+ include/type.h include/stdio.h include/const.h include/type.h \
+ include/stdarg.h include/string.h include/stdarg.h
+obj/user/shell_0.o: user/shell_0.c /usr/include/stdc-predef.h \
+ include/type.h include/const.h include/protect.h include/string.h \
+ include/type.h include/proc.h include/global.h include/tty.h \
+ include/console.h include/fs_const.h include/hd.h include/proto.h \
+ include/stdio.h include/const.h include/stdarg.h
+obj/lib/klib.o: lib/klib.c /usr/include/stdc-predef.h include/type.h \
+ include/const.h include/protect.h include/string.h include/type.h \
+ include/proc.h include/global.h include/tty.h include/console.h \
+ include/fs_const.h include/hd.h include/proto.h
+obj/user/ptTest.o: user/ptTest.c /usr/include/stdc-predef.h \
+ include/stdio.h include/const.h include/type.h include/stdarg.h
+obj/lib/kprintf.o: lib/kprintf.c /usr/include/stdc-predef.h \
+ include/stdio.h include/const.h include/type.h include/stdarg.h \
+ include/protect.h include/proc.h include/global.h include/tty.h \
+ include/console.h include/fs_const.h include/hd.h include/proto.h
+obj/lib/string.o: lib/string.c /usr/include/stdc-predef.h \
+ include/string.h include/type.h
+obj/lib/scanf.o: lib/scanf.c /usr/include/stdc-predef.h include/stdio.h \
+ include/const.h include/type.h include/stdarg.h
+obj/lib/printf.o: lib/printf.c /usr/include/stdc-predef.h include/stdio.h \
+ include/const.h include/type.h include/stdarg.h

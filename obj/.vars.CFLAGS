@@ -1,0 +1,1 @@
+  -O0 -fno-builtin -I include -MD -fno-stack-protector -std=gnu99 -fno-pie -static -m32 -g -Wall -Wno-format -Wno-unused -Werror
