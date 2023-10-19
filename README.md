@@ -1,4 +1,15 @@
-#  MINIOS-EXT2简介
+#  MINIOS-EXT2
+
+This repo is a simple implementation of EXT2 filesystem based on the MINIOS project, which was completed by Jiang Xiaotian in late 2022 to early 2023 as part of the final assignment for the NWPU operating system course. The code of EXT2's implementation is mainly in kernel/ext2.c.
+
+- The EXT2 filesystem implemented in this project is based on EXT2 revision0.
+- The built filesystem can be mounted and read normally on Linux environment. The basic file IO operations implemented in it can also read file systems built on Linux using comman mkfs.ext2.
+- The current supported blocksize is only 1024 bytes.
+- Thanks for TA's effort on fixing the original codes in MINIOS. I could thoroughly understand his     critical comment on the code quality of this project.
+
+As size of the image file used by MINIOS is greater than the maximum size that GitHub allows, this repo is only used for storing codes and can't run actually.
+
+
 
 本仓库是jxt在2022年底至2023年初在NWPU操作系统课程试点班实验最终任务中所完成的EXT2文件系统，是基于MINIOS项目的二次开发。ext2的实现代码主要位于kernel/ext2.c内。
 
